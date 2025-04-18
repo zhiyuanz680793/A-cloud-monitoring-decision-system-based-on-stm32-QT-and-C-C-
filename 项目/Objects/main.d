@@ -38,3 +38,4 @@
 .\objects\main.o: .\Hardware\Key.h
 .\objects\main.o: .\Hardware\Motor.h
 .\objects\main.o: .\Hardware\AD.h
+.\objects\main.o: .\Hardware\Serial.h
