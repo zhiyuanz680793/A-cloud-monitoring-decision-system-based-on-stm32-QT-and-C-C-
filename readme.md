@@ -21,5 +21,12 @@ QT的界面将显示温度和转速
 V6.0
 编写了并发的服务器，部署在本机的另一台Linux子系统上，使用了Epoll。(学习目的。部署在腾讯云平台，地址49.232.32.131)
 
+运行测试样例时。服务器显示：
+![image](https://github.com/user-attachments/assets/21d1866f-d48d-453c-91d1-76f146fbe546)
+
+以下是测试结果
+![image](https://github.com/user-attachments/assets/b8ecc8a5-e448-465d-81f3-56088264bc08)
+
+
 
 
