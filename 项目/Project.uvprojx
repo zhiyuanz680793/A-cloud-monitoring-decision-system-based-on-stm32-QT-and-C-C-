@@ -655,6 +655,16 @@
               <FileType>5</FileType>
               <FilePath>.\Sysyem\Delay.h</FilePath>
             </File>
+            <File>
+              <FileName>mydma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\mydma.h</FilePath>
+            </File>
+            <File>
+              <FileName>mydma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\mydma.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

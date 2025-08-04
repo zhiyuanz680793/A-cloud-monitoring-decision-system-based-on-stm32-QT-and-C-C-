@@ -8,6 +8,6 @@ void Serial_SendString(char* string);
 uint32_t Serial_Pow(uint32_t X, uint32_t Y);
 void Serial_SendNumber(uint32_t Number, uint8_t Length);//使用文本模式显示原始数字
 uint8_t Serial_GetRxFlag(void);
-uint8_t Serial_GetRxData(void);
+uint16_t Serial_GetRxData(void);
 
 #endif

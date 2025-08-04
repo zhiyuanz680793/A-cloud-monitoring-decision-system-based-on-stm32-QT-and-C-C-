@@ -1,5 +1,5 @@
 #include "stm32f10x.h"                  // Device header
-
+#include "OLED.h"
 extern uint8_t Rx_Data;		//定义串口接收的数据变量
 uint8_t Serial_RxFlag;		//定义串口接收的标志位变量
 void Serial_Init(void)
@@ -106,7 +106,7 @@ uint8_t Serial_GetRxFlag(void)
 	}
 	return 0;						//如果标志位为0，则返回0
 }
-uint8_t Serial_GetRxData(void)
+uint16_t Serial_GetRxData(void)
 {
 	return Rx_Data;			//返回接收的数据变量
 }
@@ -127,5 +127,6 @@ void USART1_IRQHandler(void)
 		USART_ClearITPendingBit(USART1, USART_IT_RXNE);			//清除USART1的RXNE标志位
 																//读取数据寄存器会自动清除此标志位
 																//如果已经读取了数据寄存器，也可以不执行此代码
+		//OLED_ShowString(4,1,"get");//USART接收到数据
 	}
 }
